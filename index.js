@@ -4,6 +4,7 @@ var Service, Characteristic,
 	crypto = require('crypto'),
 	parseString = require('xml2js').parseString;
 
+
 module.exports = function(homebridge) {
 	Service = homebridge.hap.Service;
 	Characteristic = homebridge.hap.Characteristic;
