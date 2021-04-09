@@ -5,6 +5,7 @@ var Service, Characteristic,
 	parseString = require('xml2js').parseString;
 
 
+
 module.exports = function(homebridge) {
 	
 	Service = homebridge.hap.Service;
