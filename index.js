@@ -89,6 +89,7 @@ MeoBox.prototype.getPowerState = function(callback) {
 										    'Accept-Language': 'pt-pt',
 										    'Accept-Encoding': 'gzip, deflate',
 										    'Connection': 'keep-alive'
+											  
 										  }
 									}, function(error, response, body) {
 										if(!error) {
@@ -119,6 +120,7 @@ MeoBox.prototype.getPowerState = function(callback) {
 					});
 				} else {
 					onFinished(false);
+					
 				}
 			});
 		}
@@ -127,5 +129,7 @@ MeoBox.prototype.getPowerState = function(callback) {
 };
 
 MeoBox.prototype.getServices = function() {
+	
 	return [this.powerService, this.informationService];
+	
 };
