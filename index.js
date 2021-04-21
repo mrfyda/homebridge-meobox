@@ -1,6 +1,6 @@
 var Service, Characteristic, 
 	meo = require("meo-controller"),
-	request = require('request'),
+	request = require("request"),
 	crypto = require('crypto'),
 	parseString = require('xml2js').parseString;
 
